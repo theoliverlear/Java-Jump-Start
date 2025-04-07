@@ -35,7 +35,6 @@ public class DynamicMath {
     public static void main(String[] args) {
         simpleImplementations();
         advancedImplementations();
-
     }
 }
 
