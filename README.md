@@ -50,13 +50,13 @@ execution. This bytecode is then run on the Java Virtual Machine (JVM).
 
 ---
 
-### Chapter 5: Errors
+### Chapter 5: Input Data
+- [User Input](./src/main/java/org/theoliverlear/learn/inputs/Inputs.java)
+
+### Chapter 6: Errors
 - [Handling Errors](./src/main/java/org/theoliverlear/learn/exceptions/RatingInput.java)
 - [Creating Custom Errors](./src/main/java/org/theoliverlear/learn/exceptions/RatingOutOfBounds.java)
 - [Use Errors for Hardware Protection](./src/main/java/org/theoliverlear/learn/exceptions/HackingAttemptException.java)
-
-### Chapter 6: Input Data
-- [User Input](./src/main/java/org/theoliverlear/learn/inputs/Inputs.java)
 
 ---
 
