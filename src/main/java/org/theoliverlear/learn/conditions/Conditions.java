@@ -7,7 +7,6 @@ public class Conditions {
         double costOfItem = 1500.0;
         boolean canPurchase = moneyInBank >= costOfItem;
         boolean canAffordMonthlyPayment = moneyInBank >= costOfItem / 12;
-        // If statement
         if (canPurchase) {
             System.out.println("You can purchase the item.");
         } else if (canAffordMonthlyPayment) {
@@ -36,9 +35,20 @@ public class Conditions {
                 break;
         }
     }
+    //-----------------------Get-Product-Name-By-Id---------------------------
+    public static String getProductNameById(int idNum) {
+        return switch (idNum) {
+            case 9908 -> "Limited Edition Beanie Baby";
+            case 104 -> "Superman First Edition Comic";
+            case 10609 -> "Star Wars: The Complete Collection";
+            case 54 -> "Honda V6 Engine";
+            default -> throw new IllegalArgumentException("Invalid product ID: " + idNum);
+        };
+    }
     //===============================-Main-===================================
     public static void main(String[] args) {
         processPurchaseEligibility();
         addressMember("Bob");
+        System.out.println(getProductNameById(9908));
     }
 }
