@@ -9,6 +9,16 @@ Java Jump Start is a comprehensive guide designed to help you quickly learn
 the amazing abilities of Java. This guide will provide you will all the 
 essentials in syntax as well as the unique features of Java.
 
+---
+
+## Get Started
+
+You can create a GitHub Codespace under the green Code button. You can also
+clone the repository to your local machine using the following command.
+```bash
+git clone https://github.com/theoliverlear/Java-Jump-Start.git
+```
+
 ## Table of Contents
 
 ---
