@@ -30,8 +30,8 @@ execution. This bytecode is then run on the Java Virtual Machine (JVM).
 ---
 
 ### Chapter 1: Syntax
-- [Datatypes](./src/main/java/org/theoliverlear/learn/syntax/DataTypes.java)
 - [Basic Syntax](./src/main/java/org/theoliverlear/learn/syntax/Syntax.java)
+- [Datatypes](./src/main/java/org/theoliverlear/learn/syntax/DataTypes.java)
 - [Wrappers](./src/main/java/org/theoliverlear/learn/syntax/Wrappers.java)
 
 ### Chapter 2: Functions through Classes
