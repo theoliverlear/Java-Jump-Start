@@ -13,10 +13,45 @@ essentials in syntax as well as the unique features of Java.
 
 ## Get Started
 
-You can create a GitHub Codespace under the green Code button. You can also
-clone the repository to your local machine using the following command.
+### Easiest Option
+
+You can create a GitHub Codespace under the green Code button. This will 
+create an IDE for you in the browser.
+
+#### Create a Codespace with Code Button
+
+![Codespaces Example](./images/codespaces_example.png)
+
+#### Load the Codespace Environment
+
+```bash
+bash ./init_codespace.sh
+```
+
+```bash
+source ~/.bashrc
+```
+
+### Most Customizable Option
+Clone the repository to your local machine using the following command.
 ```bash
 git clone https://github.com/theoliverlear/Java-Jump-Start.git
+```
+
+### Run the Java Code
+
+Running the Java code, with modern Java, only requires the `java` command.
+
+#### For all files, except `Script.java`, run:
+
+```bash
+java ExampleFile.java
+```
+
+#### For `Script.java`, run:
+
+```bash
+java --enable-preview Script.java
 ```
 
 ## Table of Contents
