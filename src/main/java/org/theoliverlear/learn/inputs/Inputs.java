@@ -16,7 +16,7 @@ public class Inputs {
         System.out.println("Hello, " + name + "!");
         System.out.println(DIVIDER);
         //----------------------Input-From-File-------------------------------
-        String filePath = "src/main/java/org/theoliverlear/complete/inputs/movies.txt";
+        String filePath = "src/main/java/org/theoliverlear/learn/inputs/movies.txt";
         Scanner fileScanner = new Scanner(Path.of(filePath));
         while (fileScanner.hasNextLine()) {
             String line = fileScanner.nextLine();
