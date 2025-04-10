@@ -46,6 +46,9 @@ public class ArrayCollection {
         anotherAltDynamicArray.forEach(System.out::println);
         //------------Multidimensional-Dynamic-Size-Array---------------------
         List<List<Integer>> multiDimensionalDynamicArray = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            multiDimensionalDynamicArray.add(new ArrayList<>());
+        }
         multiDimensionalDynamicArray.get(0).add(1);
         multiDimensionalDynamicArray.get(0).add(2);
         multiDimensionalDynamicArray.get(0).add(3);
