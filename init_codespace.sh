@@ -6,7 +6,6 @@ echo "Downloading Java 23..."
 wget https://download.oracle.com/java/23/latest/jdk-23_linux-x64_bin.deb
 
 echo "Installing Java 23..."
-sudo apt update -y
 sudo apt install -y ./jdk-23_linux-x64_bin.deb
 
 echo "Registering Java 23..."
@@ -21,6 +20,7 @@ export JAVA_HOME=/usr/lib/jvm/jdk-23.0.2-oracle-x64
 export PATH=$JAVA_HOME/bin:$PATH
 echo 'export JAVA_HOME=/usr/lib/jvm/jdk-23.0.2-oracle-x64' >> ~/.bashrc
 echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 
 export JAVA_HOME=/usr/lib/jvm/jdk-23.0.2-oracle-x64
 export PATH=$JAVA_HOME/bin:$PATH
